@@ -10,5 +10,6 @@ constant = input()
 def equació_recta(pendent,x,constant):
     return pendent * x + constant
 y = equació_recta(int(pendent),int(x),int(constant))
-print ("El resultat de la funció és  : " + str(y))
+print ("El resultat de l'equació és  : " + str(y))
 
+    
